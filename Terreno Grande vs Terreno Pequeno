@@ -1,0 +1,7 @@
+base = float(input("Digite a medida da base: "))
+altura = float(input("Digite a medida da altura: "))
+conta = base*altura
+if conta > 100:
+    print("A área do terreno é ",conta,", considerado terreno grande")
+else:
+    print("A área do terreno é ",conta,", considerado terreno pequeno")
