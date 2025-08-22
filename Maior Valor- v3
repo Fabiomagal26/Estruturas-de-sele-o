@@ -1,0 +1,9 @@
+x = float(input("Digite um valor: "))
+y = float(input("Digite outro valor: "))
+z = float(input("Digite mais um valor: "))
+if x > y and x > z:
+    print("O maior valor é ", x)
+elif y > x and y > z:
+    print("O maior valor é", y)
+else:
+    print("O maior valor é", z)
