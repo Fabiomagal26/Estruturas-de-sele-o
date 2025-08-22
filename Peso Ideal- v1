@@ -1,0 +1,9 @@
+peso = float(input("Digite seu peso: "))
+altura = float(input("Digite sua altura: "))
+r = peso / (altura ** 2)
+if r < 20:
+    print("Abaixo do peso")
+elif 20 < r < 25:
+    print("Peso ideal")
+else:
+    print("Acima do peso")
