@@ -1,0 +1,5 @@
+base = float(input("Digite a medida da base: "))
+altura = float(input("Digite a medida da altura: "))
+conta = base*altura
+if conta > 100:
+    print("Terreno grande")
