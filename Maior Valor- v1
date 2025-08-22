@@ -1,0 +1,8 @@
+x = float(input("Digite um valor: "))
+y = float(input("Digite outro valor:"))
+if x > y:
+    print("O maior valor é", x)
+elif y > x:
+    print("O maior valor é ",y)
+else:
+    print("Os valores são iguais")
