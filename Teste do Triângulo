@@ -1,0 +1,12 @@
+a = float(input("Digite um valor: "))
+b = float(input("Digite outro valor: "))
+c = float(input("Digite mais um valor: "))
+if (a + b > c) and (a + c > b) and (b + c > a):
+    if a == b == c:
+        print("Os valores formam um triângulo equilátero")
+    elif a == b or a == c or b ==c:
+        print("Os valores formam um triângulo isósceles")
+    else:
+        print("Os valores formam um triângulo escaleno")
+else:
+        print("Os valores não formam um triângulo")
